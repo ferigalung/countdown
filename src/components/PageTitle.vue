@@ -1,6 +1,6 @@
 <template>
     <div class="page-title">
-        <h1>{{title}}</h1>
+        {{title}}
     </div>
 </template>
 
@@ -14,10 +14,16 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .page-title {
-    padding: 30px auto;
+    font-family: 'Lobster', sans-serif;
+    color: #011832;
+    padding: 30px;
     text-align: center;
-    font-size: 2rem;
-    margin: 100px auto;
+    font-size: 60px;
+    font-weight: 100;
+    align-self: end;
 }
+
 </style>

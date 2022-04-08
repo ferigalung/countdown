@@ -2,17 +2,20 @@
   <div class="container">
     <PageTitle title="Hitung mundur hari raya idul fitri 1443H" />
     <MainBanner :countDownDate='date' :eventName='event' />
+    <FooterBar link='https://instagram.com' name='@ferigalung.dev' />
   </div>
 </template>
 
 <script>
 import MainBanner from './components/MainBanner'
 import PageTitle from './components/PageTitle.vue'
+import FooterBar from './components/FooterBar.vue'
 export default {
   name: 'App',
   components: {
     MainBanner,
-    PageTitle
+    PageTitle,
+    FooterBar
   },
   data() {
     return {
@@ -43,8 +46,9 @@ body {
 }
 
 .container {
-  max-width: 1440px;
-  margin: 30px auto;
-  padding: 30px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 4fr 20fr 1fr;
 }
 </style>

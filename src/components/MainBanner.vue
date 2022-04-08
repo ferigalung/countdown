@@ -45,15 +45,18 @@ export default {
 
 <style scoped>
 .banner {
-    margin: 10px auto;
-    padding: 58px;
-    background:#24475B;
-    max-width: 1100px;
-    min-height: 400px;
+    margin-top: 100px;
+    padding: 20px;
+    background:#011832;
+    width: 900px;
+    height: 300px;
     border-radius: 10px;
     color: #f2f2f2;
+    border: 10px solid #a87f1f;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-self: start;
+    justify-self: center;
 }
 
 h2 {

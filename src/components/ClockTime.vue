@@ -27,7 +27,7 @@ export default {
 
 .time {
     line-height: 110px;
-    font-size: 98px;
+    font-size: 70px;
     letter-spacing: -0.055em;
 }
 
